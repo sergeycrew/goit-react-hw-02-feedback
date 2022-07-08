@@ -11,5 +11,5 @@ export const Wrapper = styled.section`
 export const MainTitle = styled.h1`
   font-size: 30px;
   margin-bottom: 10px;
-  color: #1f51ff;
+  color: #00b1e7;
 `;

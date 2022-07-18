@@ -19,9 +19,11 @@ export class App extends Component {
 
   countTotalFeedback = () => {
     let total = 0;
-    for (let value of Object.values(this.state)) {
-      total += value;
-    }
+
+    Object.values(this.state).forEach(value => (total += value));
+    // for (let value of Object.values(this.state)) {
+    //   total += value;
+    // }
     return total;
   };
 
